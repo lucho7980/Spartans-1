@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { db } from "../../config/firebase";
+import BarraNavegacion from '../Views/BarraNavegacion';
+import Footer from '../Views/Footer';
 const NoticiasFutbol = () => {
   const [noticiasFutbol, setNoticiasFutbol] = useState([]);
   const [CurrentId, setCurrentId] = useState();
